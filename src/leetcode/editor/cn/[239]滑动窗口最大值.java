@@ -10,12 +10,7 @@ class Solution239 {
             return nums;
         }
 
-        PriorityQueue<int[]> priorityQueue = new PriorityQueue<int[]>(new Comparator<int[]>() {
-            @Override
-            public int compare(int[] o1, int[] o2) {
-                return o1[0] != o2[0] ? o2[0] - o1[0] : o2[1] - o1[1];
-            }
-        });
+        PriorityQueue<int[]> priorityQueue = new PriorityQueue<>((o1, o2) -> o1[0] != o2[0] ? o2[0] - o1[0] : o2[1] - o1[1]);
 
         int n = nums.length;
         for (int i = 0; i < k; i++) {
