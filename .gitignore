@@ -31,3 +31,6 @@ bin/
 ### IDEA ###
 .idea/
 *.iml
+
+### doc ###
+src/leetcode/editor/cn/doc/
