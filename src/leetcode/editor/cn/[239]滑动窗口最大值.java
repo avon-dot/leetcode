@@ -1,6 +1,5 @@
 package leetcode.editor.cn;
 
-import java.util.Comparator;
 import java.util.PriorityQueue;
 
 //leetcode submit region begin(Prohibit modification and deletion)
