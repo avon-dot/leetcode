@@ -15,7 +15,7 @@ package leetcode.editor.cn;
  *     }
  * }
  */
-class Solution {
+class Solution110 {
     boolean ans = true;
     public boolean isBalanced(TreeNode root) {
         dfs(root);
