@@ -15,7 +15,7 @@ package leetcode.editor.cn;
  *     }
  * }
  */
-class Solution {
+class Solution114 {
     public void flatten(TreeNode root) {
         if (root == null) return;
         flatten(root.right);
